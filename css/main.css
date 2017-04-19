@@ -28,5 +28,13 @@ span{
   background-color: black;
   width: 100px;
   height: 4px;
+}
+.opacity {
+  -webkit-filter: opacity(50%);
+  filter: opacity(50%);
+}
 
+.opacity:hover{
+  -webkit-filter: opacity(100%);
+  filter: opacity(100%);
 }
