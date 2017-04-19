@@ -1,25 +1,32 @@
-.imagen{
-  width:15%;
-  height: 15;
-  margin-left:5%;
-  margin-top:5%;
-  display:inline-block;
-  border: solid 1px black;
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Exo 2', sans-serif;
+}
+div{
+  width:400px;
+  height:400px;
   position:relative;
+  margin:20px;
+  display:inline-block;
 }
-.linea{
-  border: solid 1px black;
-  width: 15%;
-  height: 2px;
-  margin-top:1%;
-  background-color: black;
-}
-.floatIzq{
-  float:left;
+.imagen{
+  width:400px;
   position:absolute;
 }
-.contenedor{
-	margin-top: 5%;
-	width: 80%;
-	height: 80%;
+span{
+  position:absolute;
+  bottom: 20px;
+  right:16px;
+  color: white;
+}
+
+.linea{
+  background-color: black;
+  width: 100px;
+  height: 4px;
+
 }
